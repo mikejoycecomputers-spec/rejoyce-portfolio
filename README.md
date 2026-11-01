@@ -22,4 +22,3 @@ Repository: https://github.com/mikejoycecomputers-spec/rejoyce-portfolio
 
 ## Next steps
 Build the representative sites natively in Webflow, verify CMS and breakpoint behavior, collect preview/read-only URLs, and check current creator application fields.
-
