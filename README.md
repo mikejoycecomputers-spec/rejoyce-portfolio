@@ -1,23 +1,25 @@
-# ReJoyce — Website Template Collection
+# ReJoyce — Custom websites and practical digital tools
 
-Portfolio and six original downloadable three-page HTML website templates by Mike Joyce, created with AI assistance.
+The ReJoyce branded studio website by Mike Joyce, developed with AI assistance.
 
-## Templates
-- Strand: fiber and low-voltage services.
-- Fieldwork: landscaping.
-- Form & Function: furniture studio catalog.
-- Stillwell: yoga and movement studio.
-- Ember & Oak: café and bakery.
-- Northline: consulting.
-
-Each includes Home, Services/Collection, Contact, local CSS and JavaScript, original SVG artwork, and setup instructions. Demo contact forms preview locally; no inquiries are sent or stored. Connect a real form backend for business use.
+## Main experience
+- Custom Canvas fiber animation with a pause control, reduced-motion support, and offscreen/background pausing.
+- Keyboard-accessible service tabs.
+- Working PhotoSizer demo and an interactive illustration of image preset shapes.
+- Two owner-provided Payhip product embeds with direct product links.
+- Project brief dialog with local preview, downloadable text, and a mailto draft. No form backend and no automatic sending.
+- Responsive layouts and mobile navigation.
 
 ## Run
-Serve dist with any static HTTP server or open dist/index.html locally.
-Individual ZIP downloads are under dist/downloads.
+Serve dist with a static HTTP server. Open dist/index.html as the entry point.
+The Payhip store listings and Google Fonts require a network connection.
 
-## Webflow status
-These are HTML templates, not native Webflow templates. CMS, Ecommerce, and native Webflow read-only links are not included. Native Webflow work must be built and verified before a Template Creator application. Brands and business copy are fictional demo content.
+## Configure
+Public contact email: CONTACT_EMAIL near the top of dist/brand.js. Also update the fallback mailto links in dist/index.html when changing addresses.
+Payhip product keys: Wznd3 and T1IAQ in dist/index.html. The Payhip script loads once.
 
-## Verification
-Local link validation, HTML parsing, ZIP integrity and JavaScript syntax checks. Browser and device testing status is reported separately.
+## Work status
+The homepage features ReJoyce and PhotoSizer as original personal projects. Earlier HTML template experiments remain in templates/ for historical reference, but are not promoted on the homepage. No native Webflow templates or Webflow certification is claimed.
+
+## Validation
+JavaScript syntax and local link checks run before publication. Browser checks cover the published experience; no checkout purchases are made during testing.
