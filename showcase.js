@@ -9,6 +9,9 @@
     active = (index + slides.length) % slides.length;
     slides.forEach((slide, i) => {
       slide.hidden = i !== active;
+      const lux = slide.querySelector('[data-lux-src]');
+      if (lux && i === active && !lux.hasAttribute('src')) lux.src = lux.dataset.luxSrc;
+      if (lux && i !== active) lux.removeAttribute('src');
       slide.setAttribute('aria-roledescription', 'slide');
       slide.setAttribute('aria-label', `${i + 1} of ${slides.length}`);
       if (i !== active) slide.querySelectorAll('video').forEach(video => video.pause());
@@ -24,7 +27,7 @@
   browser.querySelector('[data-project-next]').addEventListener('click', () => navigate(active + 1));
   picks.forEach((pick, i) => pick.addEventListener('click', () => navigate(i)));
   browser.addEventListener('keydown', event => {
-    if (event.target !== browser && !event.target.closest('.project-controls, .project-picker')) return;
+    if (event.target !== browser && !event.target.closest('.project-controls, .project-arrows, .project-picker')) return;
     if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
       event.preventDefault();
       navigate(active + (event.key === 'ArrowRight' ? 1 : -1));
