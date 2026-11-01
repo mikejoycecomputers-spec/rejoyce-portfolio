@@ -1,24 +1,23 @@
-# ReJoyce portfolio
+# ReJoyce — Website Template Collection
 
-Original portfolio foundation for Mike Joyce, targeting the Webflow Template Creator program.
+Portfolio and six original downloadable three-page HTML website templates by Mike Joyce, created with AI assistance.
+
+## Templates
+- Strand: fiber and low-voltage services.
+- Fieldwork: landscaping.
+- Form & Function: furniture studio catalog.
+- Stillwell: yoga and movement studio.
+- Ember & Oak: café and bakery.
+- Northline: consulting.
+
+Each includes Home, Services/Collection, Contact, local CSS and JavaScript, original SVG artwork, and setup instructions. Demo contact forms preview locally; no inquiries are sent or stored. Connect a real form backend for business use.
 
 ## Run
-Open dist/index.html locally, or serve dist with a static HTTP server.
+Serve dist with any static HTTP server or open dist/index.html locally.
+Individual ZIP downloads are under dist/downloads.
 
-## Included work
-- Strand Infrastructure: fictional infrastructure-business HTML design study.
-- Fieldwork Landscapes: fictional local-service HTML design study.
-- Form & Function: fictional studio-catalog HTML design study.
-- PhotoSizer: working personal browser utility with documented verification limits.
+## Webflow status
+These are HTML templates, not native Webflow templates. CMS, Ecommerce, and native Webflow read-only links are not included. Native Webflow work must be built and verified before a Template Creator application. Brands and business copy are fictional demo content.
 
-Concepts are not client work or native Webflow templates. These files do not by themselves meet Webflow application requirements. Native Webflow examples and read-only links must be created and verified before submitting.
-
-## Design
-Responsive buildless HTML/CSS; visible keyboard focus, semantic structure, reduced-motion support. Google Fonts are optional external typography requests; system fallbacks remain available.
-
-## Publication
-Source prepared for GitHub. GitHub profile: https://github.com/mikejoycecomputers-spec
-Repository: https://github.com/mikejoycecomputers-spec/rejoyce-portfolio
-
-## Next steps
-Build the representative sites natively in Webflow, verify CMS and breakpoint behavior, collect preview/read-only URLs, and check current creator application fields.
+## Verification
+Local link validation, HTML parsing, ZIP integrity and JavaScript syntax checks. Browser and device testing status is reported separately.

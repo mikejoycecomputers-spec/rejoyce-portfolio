@@ -1,0 +1,1 @@
+document.getElementById('category').addEventListener('change',e=>{let count=0;document.querySelectorAll('.template-card').forEach(card=>{card.hidden=e.target.value!=='All templates'&&card.dataset.category!==e.target.value;if(!card.hidden)count++;});document.getElementById('count').textContent=count+' template'+(count===1?'':'s');});
